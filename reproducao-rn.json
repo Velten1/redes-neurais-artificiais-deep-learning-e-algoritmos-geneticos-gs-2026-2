@@ -1,0 +1,80 @@
+{
+  "modo": "reproducao_historica",
+  "fonte": "ERA5 via Open-Meteo",
+  "modelo": "C · L2 e parada antecipada",
+  "limiar_mm_3h": 10,
+  "casos": [
+    {
+      "caso": "acerto positivo",
+      "emitido_em_utc": "2024-01-23T15:00:00+00:00",
+      "horizonte_h": 3,
+      "entrada": {
+        "chuva_1h": 3.5,
+        "temperature_2m": 19.1,
+        "relative_humidity_2m": 94.0,
+        "surface_pressure": 931.6,
+        "chuva_3h": 6.800000000000006,
+        "chuva_6h": 11.100000000000017,
+        "chuva_24h": 13.3,
+        "variacao_pressao_3h": 0.39999999999997726,
+        "hora_sen": -0.7071067811865471,
+        "hora_cos": -0.7071067811865479,
+        "mes_sen": 0.0,
+        "mes_cos": 1.0
+      },
+      "escore": 0.9670358039117612,
+      "corte": 0.9613683061395327,
+      "classe_prevista": 1,
+      "classe_observada": 1,
+      "chuva_posterior_mm": 10.7
+    },
+    {
+      "caso": "falso aviso",
+      "emitido_em_utc": "2024-01-03T17:00:00+00:00",
+      "horizonte_h": 3,
+      "entrada": {
+        "chuva_1h": 5.3,
+        "temperature_2m": 26.0,
+        "relative_humidity_2m": 73.0,
+        "surface_pressure": 927.3,
+        "chuva_3h": 6.400000000000004,
+        "chuva_6h": 6.700000000000019,
+        "chuva_24h": 7.600000000000002,
+        "variacao_pressao_3h": -2.6000000000000227,
+        "hora_sen": -0.9659258262890683,
+        "hora_cos": -0.25881904510252063,
+        "mes_sen": 0.0,
+        "mes_cos": 1.0
+      },
+      "escore": 0.9941041616126364,
+      "corte": 0.9613683061395327,
+      "classe_prevista": 1,
+      "classe_observada": 0,
+      "chuva_posterior_mm": 7.0
+    },
+    {
+      "caso": "janela perdida",
+      "emitido_em_utc": "2024-01-03T16:00:00+00:00",
+      "horizonte_h": 3,
+      "entrada": {
+        "chuva_1h": 0.5,
+        "temperature_2m": 27.9,
+        "relative_humidity_2m": 64.0,
+        "surface_pressure": 928.1,
+        "chuva_3h": 1.1000000000000045,
+        "chuva_6h": 1.4000000000000186,
+        "chuva_24h": 2.3000000000000025,
+        "variacao_pressao_3h": -1.6999999999999318,
+        "hora_sen": -0.8660254037844385,
+        "hora_cos": -0.5000000000000004,
+        "mes_sen": 0.0,
+        "mes_cos": 1.0
+      },
+      "escore": 0.7414771190146753,
+      "corte": 0.9613683061395327,
+      "classe_prevista": 0,
+      "classe_observada": 1,
+      "chuva_posterior_mm": 11.5
+    }
+  ]
+}

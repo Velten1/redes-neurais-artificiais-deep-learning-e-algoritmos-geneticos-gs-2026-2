@@ -1,0 +1,31 @@
+{
+  "configuracao": "C · L2 e parada antecipada",
+  "metricas": {
+    "modelo": "MLP",
+    "AP": 0.15863629662846723,
+    "precisao": 0.1724137931034483,
+    "recall": 0.2777777777777778,
+    "F1": 0.2127659574468085,
+    "TP": 15,
+    "FP": 72,
+    "FN": 39,
+    "TN": 8655
+  },
+  "comparacao": [
+    {
+      "configuracao": "A · 32",
+      "epoca": 24,
+      "AP_validacao": 0.15158116749788428
+    },
+    {
+      "configuracao": "B · 64 e 32 com L2",
+      "epoca": 24,
+      "AP_validacao": 0.1607776122318088
+    },
+    {
+      "configuracao": "C · L2 e parada antecipada",
+      "epoca": 2,
+      "AP_validacao": 0.18976535626380828
+    }
+  ]
+}
