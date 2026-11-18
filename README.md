@@ -10,6 +10,7 @@ Avaliamos uma rede neural para identificar janelas com pelo menos 10 mm de chuva
 
 | Material | Conteúdo |
 |---|---|
+| [Vídeo de demonstração](https://drive.google.com/file/d/1wOi7uYgDDL4ATO8dc5K9xpFv59M8KZYa/view) | Apresentação de 3 min 28 s com arquitetura, treinamento, avaliação e inferência. |
 | [Notebook executado](VIGIA-Redes-Neurais.ipynb) | Dados, arquitetura, três configurações, curvas, avaliação e demonstração. |
 | [Série horária](dados/era5-sao-paulo-2018-2024.json) | Reanálise ERA5 para uma célula de São Paulo, distribuída pela Open-Meteo. |
 | [Referência de Machine Learning](dados/referencia-ml.csv) | Métricas dos modelos clássicos avaliados no mesmo período de teste. |
