@@ -34,3 +34,9 @@ O notebook inclui as saídas da execução. Para reproduzi-las, abra o arquivo n
 Selecionamos a configuração C pela maior precisão média (AP) na validação. Ela usa duas camadas ocultas, regularização L2 e parada antecipada. No teste de 2024, a rede obteve AP de 0,159, identificou 15 das 54 janelas positivas e gerou 72 falsos avisos. A regressão logística de Machine Learning obteve AP de 0,172 no mesmo teste. Os escores da rede são usados com um corte escolhido na validação. A calibração como probabilidade ficou fora da avaliação.
 
 Na seção **Inferência em uma janela inédita**, executamos a rede em uma leitura de 23/01/2024 às 15h UTC. Ela sinalizou uma janela positiva, e a reanálise registrou 10,7 mm acumulados nas três horas seguintes.
+
+## Acesso aos materiais do projeto
+
+- [Código e arquivos desta disciplina](https://github.com/Velten1/redes-neurais-artificiais-deep-learning-e-algoritmos-geneticos-gs-2026-2).
+- [Vídeo de Machine Learning — 4 min 58 s](https://drive.google.com/file/d/1oqzxu0OJ2w-q37rjfVNTdDrXExXVLibJ/view).
+- [Vídeo de Redes Neurais — 3 min 28 s](https://drive.google.com/file/d/1wOi7uYgDDL4ATO8dc5K9xpFv59M8KZYa/view).
